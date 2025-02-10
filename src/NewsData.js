@@ -4,12 +4,40 @@
 let newsData = {
   "news": [
     {
-      "date": "Nov 2024",
-      "text": "👩🏻‍🏫 Guest lecture in *Introduction to AR/VR Application Design* at University of Michigan"
+      "date": "Apr 2025",
+      "text": "👩🏻‍🏫 Paper presentation (Persistent Assistant) at CHI 2025"
+    },
+    {
+      "date": "Apr 2025",
+      "text": "✈️ Attending CHI 2025 in Yokohama, Japan (April 26 - May 1)"
+    },
+    {
+      "date": "Mar 2025",
+      "text": "👩🏻‍🏫 Paper presentation (Audiovisual XR Notifications) at IEEE VR 2025"
+    },
+    {
+      "date": "Mar 2025",
+      "text": "✈️ Attending IEEE VR 2025 in Saint-Malo, France (March 10 - 13)"
+    },
+    {
+      "date": "Feb 2025",
+      "text": "👩🏻‍🏫 Guest lecture in Alexandra Ion's *Computational Methods for Interactive Systems* class at Carnegie Mellon University"
+    },
+    {
+      "date": "Jan 2025",
+      "text": "👩🏻‍🏫 Invited talk at Seoul National University (SNU), hosted by Youngki Lee"
+    },
+    {
+      "date": "Dec 2024",
+      "text": "👩🏻‍🏫 Invited talk at KAIST, hosted by Juho Kim"
     },
     {
       "date": "Nov 2024",
-      "text": "👩🏻‍🏫 Guest lecture in *Introduction to Human-Computer Interaction* at University of Rochester"
+      "text": "👩🏻‍🏫 Guest lecture in Michael Nebeling's *Introduction to AR/VR Application Design* class at University of Michigan"
+    },
+    {
+      "date": "Nov 2024",
+      "text": "👩🏻‍🏫 Guest lecture in Yukang Yan's *Introduction to Human-Computer Interaction* class at University of Rochester"
     },
     {
       "date": "Oct 2024",
