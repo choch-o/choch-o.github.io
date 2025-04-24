@@ -5,7 +5,7 @@ let newsData = {
   "news": [
     {
       "date": "Apr 2025",
-      "text": "👩🏻‍🏫 Paper presentation (Persistent Assistant) at CHI 2025"
+      "text": "👩🏻‍🏫 Presenting <i>Persistent Assistant</i> at CHI 2025 in <a href='https://programs.sigchi.org/chi/2025/program/session/195002' target='_blank'>Agent Design</a> session on Wed, April 30"
     },
     {
       "date": "Apr 2025",
