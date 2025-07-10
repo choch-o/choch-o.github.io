@@ -2,7 +2,7 @@
   "name": "chocho-personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://hyunsungcho.com",
+  "homepage": "https://lyuyue.github.io",
   "devDependencies": {
     "gh-pages": "^2.0.1",
     "react-scripts": "2.1.5"
@@ -25,7 +25,7 @@
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && cp CNAME build/CNAME",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {

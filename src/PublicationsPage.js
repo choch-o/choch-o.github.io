@@ -16,8 +16,8 @@ class PublicationsPage extends Component {
                     <Box direction="column" flex={true} overflow='auto' align="center" alignContent="center">
                         <Box flex={false}>
                             <Section>
-                                <Heading level="3" color="black">Publications</Heading>
-                                <Heading level="4">Conference and Journal Papers</Heading>
+                                <Heading level="3" color="black">Projects</Heading>
+                                <Heading level="4">Software Development Projects</Heading>
                                 { paperData.papers.map(paper => (
                                   <div>
                                       <PubItem title={paper.title} authors={paper.authors} venue={paper.venue} award={paper.award}
@@ -27,7 +27,7 @@ class PublicationsPage extends Component {
                                                size={size} thumbnail={paper.thumbnail}/>
                                   </div>
                                 ))}
-                                <Heading level="4">Posters, Demos, Videos, and Workshop Papers</Heading>
+                                <Heading level="4">Technical Workshops and Blog Posts</Heading>
                                 { posterData.posters.map(poster => (
                                   <div>
                                       <PubItem title={poster.title} authors={poster.authors} venue={poster.venue} award={poster.award}

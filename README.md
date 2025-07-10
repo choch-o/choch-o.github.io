@@ -1,9 +1,19 @@
-# choch-o.github.io (http://hyunsungcho.com)
+# lyuye.github.io (https://lyuye.github.io)
 
-This is my personal website built with React.
+This is my personal website built with React and deployed using GitHub Pages.
 
-For development, run
-`npm start`
+## Development
 
-For deployment, run
-`npm run deploy`
+To run the development server locally:
+```
+npm start
+```
+
+## Deployment
+
+To deploy to GitHub Pages:
+```
+npm run deploy
+```
+
+This will build the project and push it to the master branch of the GitHub repository.

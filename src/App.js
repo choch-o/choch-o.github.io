@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { Anchor, Box, Button, Heading, Grommet, ResponsiveContext} from 'grommet';
 import { ResearchPage } from './ResearchPage';
 import { PublicationsPage } from "./PublicationsPage";
+import { DesignProjectsPage } from "./DesignProjectsPage";
 
 const theme = {
   global: {
@@ -95,7 +96,7 @@ const subheaderBarStyleMobile = {
   fontWeight: '200',
 }
 
-const cv = '/pdf/CV_HyunsungCho.pdf';
+const cv = '/pdf/CV_Lyuye.pdf';
 
 const AppBar = (props) => (
   <Box
@@ -143,7 +144,7 @@ class App extends Component {
                            margin="none"
                            // margin={(size === "small") ? {top: "large", bottom: "small"} : "none"}
                   >
-                    HYUNSUNG CHO
+                    LYUYE
                   </Heading>
                   <Heading level='5'
                            style={(size === "small") ? subheaderBarStyleMobile : subheaderBarStyle}
@@ -159,7 +160,7 @@ class App extends Component {
                            // level='3' color='heavy' style={(size === "small") ? headerStyleMobile : headerStyle}
                            // margin={{vertical: "small"}}
                       >
-                    조현성
+                    绿叶
                   </Heading>
                 </Box>
                 <Box direction="row" margin={(size === "small") ? {bottom: "small"} : {top: "large", bottom: "small"}}>
@@ -176,22 +177,22 @@ class App extends Component {
                           : <span>Research</span>}
                     </Button>
                   </Heading>
-                  {/*<Heading level='5' style={(size === "small") ? subheaderBarStyleMobile : subheaderBarStyle}*/}
-                  {/*         color="brand" margin="small">*/}
-                  {/*  |*/}
-                  {/*</Heading>*/}
-                  {/*<Heading level='5' style={(size === "small") ? subheaderStyleMobile : subheaderStyle}*/}
-                  {/*  onClick={() => this.switchTab("publications")}*/}
-                  {/*         margin="none">*/}
-                  {/*  <Button hoverIndicator={{color: "brand", opacity: "strong"}}>*/}
-                  {/*  {(this.state.currentTab === "publications")*/}
-                  {/*      ? <span style={{'textDecoration': 'underline ',*/}
-                  {/*        'WebkitTextDecoration': 'underline',*/}
-                  {/*        'textDecorationColor': theme.global.colors.brand,*/}
-                  {/*        'WebkitTextDecorationColor': theme.global.colors.brand,}}>Publications</span>*/}
-                  {/*      : <span>Publications</span>}*/}
-                  {/*  </Button>*/}
-                  {/*</Heading>*/}
+                  <Heading level='5' style={(size === "small") ? subheaderBarStyleMobile : subheaderBarStyle}
+                           color="brand" margin="small">
+                    |
+                  </Heading>
+                  <Heading level='5' style={(size === "small") ? subheaderStyleMobile : subheaderStyle}
+                    onClick={() => this.switchTab("projects")}
+                           margin="none">
+                    <Button hoverIndicator={{color: "brand", opacity: "strong"}}>
+                    {(this.state.currentTab === "projects")
+                        ? <span style={{'textDecoration': 'underline ',
+                          'WebkitTextDecoration': 'underline',
+                          'textDecorationColor': theme.global.colors.brand,
+                          'WebkitTextDecorationColor': theme.global.colors.brand,}}>Projects</span>
+                        : <span>Projects</span>}
+                    </Button>
+                  </Heading>
                   <Heading level='5' style={(size === "small") ? subheaderBarStyleMobile : subheaderBarStyle}
                            color="brand" margin="small">
                     |
@@ -208,6 +209,8 @@ class App extends Component {
               </AppBar>
               {this.state.currentTab === "research" ?
                   <ResearchPage theme={theme} />
+                  : this.state.currentTab === "projects" ?
+                  <DesignProjectsPage />
                   : <PublicationsPage />
               }
             </Box>

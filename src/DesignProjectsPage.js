@@ -51,7 +51,7 @@ class DesignProjectsPage extends Component {
         </Box>
     );
 
-    diyProjects = projectData.diy_projects.map((project) => {
+    devProjects = projectData.dev_projects.map((project) => {
         return <this.Project project={project} />
     })
 
@@ -80,9 +80,9 @@ class DesignProjectsPage extends Component {
                 {size => (
                     <Box direction="column" flex={true} overflow='auto' align="center" alignContent="center">
                         <Box flex={false}>
-                            {/* DIY Design & Fabrication */}
+                            {/* Software Development Projects */}
                             <Section alignContnet="center">
-                                <Heading level="3" color="black">DIY Design & Fabrication</Heading>
+                                <Heading level="3" color="black">Software Development Projects</Heading>
                                 <Box width="xlarge">
                                     <Grid
                                         // 3x3 grid
@@ -90,7 +90,7 @@ class DesignProjectsPage extends Component {
                                         columns="300px"
                                         gap="small"
                                     >
-                                        { this.diyProjects }
+                                        { this.devProjects }
                                     </Grid>
                                 </Box>
                             </Section>

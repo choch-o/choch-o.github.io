@@ -12,7 +12,7 @@ import { library } from "@fortawesome/fontawesome-svg-core"
 import { faFile, faEnvelope, faVolumeHigh, faPlay } from '@fortawesome/free-solid-svg-icons'
 import { faGoogleScholar, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
-const profile = '/img/profile_xmas.JPG';
+const profile = '/img/profile.jpg';
 
 library.add(faFile, faEnvelope, faGoogleScholar, faXTwitter, faVolumeHigh, faPlay);
 
@@ -72,10 +72,9 @@ class ResearchPage extends Component {
                                         src={profile}
                                     />
                                     <Box margin="xsmall" direction="column" gap="xsmall">
-                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-solid fa-envelope" />} label="hyunsung [at] cs.cmu.edu" target="_blank" href="mailto:hyunsung@cs.cmu.edu" />
-                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-brands fa-google-scholar" style={{color: "#74C0FC",}} />} label="Google Scholars" target="_blank" href="https://scholar.google.co.kr/citations?user=VpQp9hEAAAAJ"/>
-                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-brands fa-x-twitter" />} label="Twitter | X" target="_blank" href="https://twitter.com/hciresearcher"/>
-                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-solid fa-volume-high" />} label="How to pronounce my name" target="_blank" href="https://x.com/hciresearcher/status/1572391049317830656" />
+                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-solid fa-envelope" />} label="lyuye [at] example.com" target="_blank" href="mailto:lyuye@example.com" />
+                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-brands fa-google-scholar" style={{color: "#74C0FC",}} />} label="Google Scholar" target="_blank" href="#"/>
+                                        <Button plain alignSelf="start" icon={<FontAwesomeIcon icon="fa-brands fa-x-twitter" />} label="Twitter | X" target="_blank" href="#"/>
                                     </Box>
                                     {/*<Text size="small">* Hyunsung is pronounced as [hjʌn sʌŋ].</Text>*/}
                                     {/*<Text size="small" alignSelf="center">Hyunsung is pronounced hjʌn sʌŋ.</Text>*/}
@@ -83,51 +82,13 @@ class ResearchPage extends Component {
 
                                 <Box orientation="column" width="600px">
                                     <Paragraph margin="small" size="small" fill={true} color="black">
-                                        I am a fourth-year Ph.D. student in the <Anchor color='black' href="https://augmented-perception.org"
-                                                                                 label="Augmented Perception Lab"
-                                                                                 style={this.anchorStyle}
-                                    /> at the <Anchor color='black' href="https://www.hcii.cmu.edu" label="Human-Computer Interaction Institute"
-                                                      style={this.anchorStyle}/> at <Anchor color='black' href="https://www.cs.cmu.edu"
-                                                                                       label="Carnegie Mellon University"
-                                                                                       style={this.anchorStyle}
-                                    />, advised by Prof. <Anchor color='black' href="https://davidlindlbauer.com"
-                                                                 label="David Lindlbauer" style={this.anchorStyle}/>.
-                                        I explore ways to enhance users' capabilities with minimal effort and distraction through <b>context-aware digital support</b>.
-                                        {/*She is interested in building context-aware computing systems that enable seamless, unobtrusive interactions with digital functionalities.*/}
-
-                                        {/*My research interest lies in Human-Computer Interaction (HCI) and ubiquitous computing.*/}
-
-                                        {/*My current research focuses on context-aware adaptation of user interface in Mixed Reality through computational interaction.*/}
-                                        {/*I explore how we can advance users’ capabilities while minimizing distraction through context-aware digital support.*/}
-                                        {/*My research interests lie at the intersection of HCI, ubiquitous computing, CSCW, and mobile computing.*/}
-                                        {/*I like building novel applications of context-aware computing, which provide just-in-time,*/}
-                                        {/*just-in-place digital support for users based on contextual and behavioral information*/}
-                                        {/*inferred from mobile sensing and user interaction data.*/}
+                                        Welcome to my personal website! I am Lyuye (绿叶), a software developer and technology enthusiast with a passion for creating elegant and efficient solutions to complex problems.
                                     </Paragraph>
                                     <Paragraph margin="small" size="small" fill={true} color="black">
-                                        My current research advances <b>everyday Extended Reality (XR)</b> in two key directions: (1) developing <b>context-aware, personalized XR interfaces</b> that dynamically adapt to users' changing environments, activities, and goals, and (2) designing <b>multimodal</b> interaction techniques that integrate natural inputs such as gaze, voice, and gesture with rich outputs across visual, auditory, and haptic channels.
-                                        By combining <b>computational modeling</b> of human perception and behavior, <b>user-centered</b> design, and <b>adaptive</b> systems,  I aim to create XR technologies that blend seamlessly into users' lives, making the technology feel <Anchor color='black' href="https://dl.acm.org/doi/10.1145/329124.329126" label='"invisible"' style={this.subtleAnchorStyle}/>.
-                                        This allows users to focus on what matters most in their environment while accessing digital support effortlessly when needed.
+                                        My expertise spans across web development, software engineering, and user interface design. I enjoy working with modern technologies and frameworks to build responsive, user-friendly applications that deliver exceptional user experiences.
                                     </Paragraph>
                                     <Paragraph margin="small" size="small" fill={true} color="black">
-
-                                        In Summer 2023 and 2024, I worked as a Research Scientist Intern at <Anchor color='black' href="https://about.meta.com/realitylabs/"
-                                                label="Meta Reality Labs" style={this.subtleAnchorStyle}/>
-                                        , Redmond, USA, with Dr. <Anchor color='black' href="https://www.kashyaptodi.com/" label="Kash Todi" style={this.subtleAnchorStyle}/>.
-                                        Prior to joining CMU, I was a member
-                                        of the <Anchor color="black" href="https://nmsl.kaist.ac.kr"
-                                                   label="Networking & Mobile Systems Lab"
-                                                   style={this.subtleAnchorStyle}/> at <Anchor color="black" href="https://www.kaist.ac.kr/en/"
-                                                                                          label="KAIST" style={this.subtleAnchorStyle}/>, advised by
-                                        Prof. <Anchor color="black" href="https://sites.google.com/site/wewantsj/"
-                                                      label="Sung-Ju Lee" style={this.subtleAnchorStyle}/> and a research intern
-                                        at <Anchor color="black" href="https://www.bell-labs.com" label="Nokia Bell Labs"
-                                                   style={this.subtleAnchorStyle}/>, Cambridge, UK, with Dr. <Anchor color="black" href="https://akhilmathurs.github.io/" label="Akhil Mathur" style={this.subtleAnchorStyle}/>.
-                                        In past projects, I focused on reducing digital distractions for digital wellbeing through context-aware computing,
-                                        and I explored privacy-preserving methods for context-aware systems using federated learning.
-
-                                        {/*I'm also interested in computational approaches to model human behavior and interaction to */}
-                                        {/*improve context-awareness of a system.*/}
+                                        When I'm not coding, I enjoy exploring new technologies, contributing to open-source projects, and sharing my knowledge with the developer community. I believe in continuous learning and staying up-to-date with the latest industry trends and best practices.
                                     </Paragraph>
 
                                 </Box>

@@ -1,25 +1,32 @@
 let projectData = {
-    "diy_projects": [
+    "dev_projects": [
         {
-            "name": "ps2",
-            "title": "Transformative Potato Fries Bag",
-            "description": "This transformative fries bag gets rid of all the hassles in enjoying fries. " +
-                "No more spilling: The lid keeps the fries safe inside the bag while carrying.\n\n" +
-                "No more lifting: Once torn open, the bag transforms into a stand, putting the fries and ketchup " +
-                "at a perfect angle for retrieval.\n\n" +
-                "No more sanitizer: Use the torn out piece of the bag as a gripper for the fries.",
-            "thumbnail": "/img/ps2_thumbnail.png",
-            "media": ["/img/ps2_thumbnail.png", "/img/ps2_media0.gif", "/img/ps2_media1.gif", "/img/ps2_media2.JPG"]
+            "name": "webapp",
+            "title": "Modern Web Application",
+            "description": "A full-stack web application built with React and Node.js. Features include user authentication, " +
+                "real-time data updates, and responsive design for all device sizes.\n\n" +
+                "The frontend uses React with hooks, context API for state management, and styled-components for styling. " +
+                "The backend is built with Express.js and MongoDB for data storage.",
+            "thumbnail": "/img/project1_thumbnail.png",
+            "media": ["/img/project1_thumbnail.png"]
         },
         {
-            "name": "ps1",
-            "title": "Coffee Cup Holder",
-            "description": "A minimal yet snazzy design of a coffee cup holder. " +
-                "Minimized use of the total material, for the Earth.\n" +
-                "Laser cut and heated.",
-            "thumbnail": "/img/ps1_thumbnail.JPG",
-            "media": ["/img/ps1_thumbnail.JPG", "/img/ps1_media0.gif", "/img/ps1_media1.JPG", "/img/ps1_media2.JPG",
-                "/img/ps1_media3.JPG", "/img/ps1_media4.JPG"]
+            "name": "ecommerce",
+            "title": "E-commerce Platform",
+            "description": "A responsive e-commerce platform with product catalog, shopping cart, and secure checkout. " +
+                "Built with modern web technologies and optimized for performance.\n\n" +
+                "Features include product search, filtering, user reviews, and payment processing integration.",
+            "thumbnail": "/img/project2_thumbnail.png",
+            "media": ["/img/project2_thumbnail.png"]
+        },
+        {
+            "name": "dashboard",
+            "title": "Data Visualization Dashboard",
+            "description": "An interactive dashboard for visualizing complex datasets. Built with D3.js and React, " +
+                "featuring real-time data updates and customizable views.\n\n" +
+                "The dashboard includes various chart types, data filtering options, and export capabilities.",
+            "thumbnail": "/img/project3_thumbnail.png",
+            "media": ["/img/project3_thumbnail.png"]
         },
     ],
     // "art_projects": [
