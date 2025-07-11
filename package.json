@@ -2,7 +2,7 @@
   "name": "chocho-personal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lyuyue.github.io",
+  "homepage": "https://lyuye.github.io",
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "react-scripts": "2.1.5"
